@@ -1,0 +1,50 @@
+[
+  {
+    "name": "IMG_6829",
+    "filename": "IMG_6829.HEIC",
+    "year": 2026,
+    "month": 9,
+    "day": 14,
+    "hour": 8,
+    "minute": 30,
+    "hasSpecificTime": true,
+    "summary": "Frauenarzttermin",
+    "locationContains": ["Kristine Spatzier", "Heidelberg"]
+  },
+  {
+    "name": "IMG_6830",
+    "filename": "IMG_6830.HEIC",
+    "year": 2026,
+    "month": 3,
+    "day": 27,
+    "hour": 8,
+    "minute": 30,
+    "hasSpecificTime": true,
+    "summary": "Labor",
+    "locationContains": ["Praxis Dr. med. H. Mittnacht", "Hausarzt"]
+  },
+  {
+    "name": "IMG_6831",
+    "filename": "IMG_6831.HEIC",
+    "year": 2026,
+    "month": 3,
+    "day": 19,
+    "hour": 11,
+    "minute": 15,
+    "hasSpecificTime": true,
+    "summary": "Zahnarzttermin",
+    "locationContains": ["Samir Youssef", "St. Leon-Rot"]
+  },
+  {
+    "name": "IMG_6832",
+    "filename": "IMG_6832.HEIC",
+    "year": 2026,
+    "month": 2,
+    "day": 2,
+    "hour": 9,
+    "minute": 0,
+    "hasSpecificTime": false,
+    "summary": "Physiotherapietermin",
+    "locationContains": ["Fit & Fun", "Opelstr. 2", "St. Leon-Rot"]
+  }
+]

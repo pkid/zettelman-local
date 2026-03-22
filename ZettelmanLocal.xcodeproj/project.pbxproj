@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03862B8CD946F04162C61639 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECDDDAEF1DF56CF7515096A /* XCTest.framework */; };
+		2A946C3E0B1F091F21223A31 /* AppointmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86899797BB285DBC3C0F92C /* AppointmentListView.swift */; };
+		3C2E060D25273FB84C6A1B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DDAFB223E5AEEB28EE96EF /* Foundation.framework */; };
+		465380FB1D1FE6E7A1B51667 /* ScanConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DCAE4D4CF31D907A97C95 /* ScanConfirmationView.swift */; };
+		47EA4D409FFE81F39E300166 /* AppointmentScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E3BADC223F4EB4E6FB60B /* AppointmentScanner.swift */; };
+		48CB823BEBC91BD77597B26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705FCF7ED15C166B9FEB3B29 /* Assets.xcassets */; };
+		50F333F7572001BB32A2ED34 /* ScannedImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC044C352C66720225E543 /* ScannedImageStore.swift */; };
+		606C5261143C7AF6E712DB67 /* SampleScanIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FF50857B44A520C8D73BA6 /* SampleScanIntegrationTests.swift */; };
+		65DD49BC79CC4595EE656AA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F86BF87609099263DB852 /* ContentView.swift */; };
+		6C5E62E211FDC70E075806F0 /* AppointmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24785784A29452D75DF903B8 /* AppointmentDetailView.swift */; };
+		79155A4C0973B71FAAA36C44 /* PhotoLibraryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A488C36169B5A5B9082684 /* PhotoLibraryPicker.swift */; };
+		8FD15D76B1EA729AFE759EA0 /* AppointmentExtractorFixtureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2512375AC203CAE9B2AA0AF /* AppointmentExtractorFixtureTests.swift */; };
+		9A9F95B69B5D667D0BE1B6AB /* AppointmentRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946EAD67272100D8D52E3D0 /* AppointmentRecord.swift */; };
+		B5042AE3D3F96498B79608CA /* OCRImagePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2820FFF8EC26B9F4EC1A55 /* OCRImagePreprocessor.swift */; };
+		BA1B05A35D84E714549E1971 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED2FC84DDDE83AA9CB4548 /* CameraPicker.swift */; };
+		BCBF984EAACCFF6DA75D4087 /* ZettelmanLocalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6827E0B160E1C08807EFF40C /* ZettelmanLocalApp.swift */; };
+		C1FE78DCCF511DDBE0267DDC /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC03C38F6B37998A1123C33 /* TextRecognizer.swift */; };
+		CA832C81C4AEABA8ED7B6B8E /* ExtractedAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD2EEE58D99069E90A9085D /* ExtractedAppointment.swift */; };
+		D78F4F49808BDF21099BE6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DDAFB223E5AEEB28EE96EF /* Foundation.framework */; };
+		E872D8D8E021815DD2A85961 /* AppointmentPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1143A1B123A47EECD2612 /* AppointmentPresentation.swift */; };
+		E8D43195AE7CB4767DEE72B2 /* AppointmentExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509571028EC25FCEF9D9F50 /* AppointmentExtractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CD6B521C0D6FE3A80F8E94D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDADF0559DA42259C37EF488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19FEC47EA1825C2806C4E108;
+			remoteInfo = ZettelmanLocal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A370C90CD9C90E1EDCF0AD /* ZettelmanLocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZettelmanLocalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24785784A29452D75DF903B8 /* AppointmentDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentDetailView.swift; sourceTree = "<group>"; };
+		25A488C36169B5A5B9082684 /* PhotoLibraryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoLibraryPicker.swift; sourceTree = "<group>"; };
+		2DE1143A1B123A47EECD2612 /* AppointmentPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentPresentation.swift; sourceTree = "<group>"; };
+		3FC03C38F6B37998A1123C33 /* TextRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		40ED2FC84DDDE83AA9CB4548 /* CameraPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		42FF50857B44A520C8D73BA6 /* SampleScanIntegrationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SampleScanIntegrationTests.swift; sourceTree = "<group>"; };
+		481F86BF87609099263DB852 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6827E0B160E1C08807EFF40C /* ZettelmanLocalApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZettelmanLocalApp.swift; sourceTree = "<group>"; };
+		705FCF7ED15C166B9FEB3B29 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AD2EEE58D99069E90A9085D /* ExtractedAppointment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExtractedAppointment.swift; sourceTree = "<group>"; };
+		8ECDDDAEF1DF56CF7515096A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A42DCAE4D4CF31D907A97C95 /* ScanConfirmationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanConfirmationView.swift; sourceTree = "<group>"; };
+		A8BC044C352C66720225E543 /* ScannedImageStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScannedImageStore.swift; sourceTree = "<group>"; };
+		AF2820FFF8EC26B9F4EC1A55 /* OCRImagePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OCRImagePreprocessor.swift; sourceTree = "<group>"; };
+		C7D01C92DC0A6E9B3B8F7802 /* ZettelmanLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZettelmanLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86899797BB285DBC3C0F92C /* AppointmentListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentListView.swift; sourceTree = "<group>"; };
+		D946EAD67272100D8D52E3D0 /* AppointmentRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentRecord.swift; sourceTree = "<group>"; };
+		DB9E3BADC223F4EB4E6FB60B /* AppointmentScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentScanner.swift; sourceTree = "<group>"; };
+		E2512375AC203CAE9B2AA0AF /* AppointmentExtractorFixtureTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentExtractorFixtureTests.swift; sourceTree = "<group>"; };
+		E509571028EC25FCEF9D9F50 /* AppointmentExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentExtractor.swift; sourceTree = "<group>"; };
+		F2DDAFB223E5AEEB28EE96EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60A56E578C0950110A4B3F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2E060D25273FB84C6A1B60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E09425AFFEEDE8026DC28F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78F4F49808BDF21099BE6AF /* Foundation.framework in Frameworks */,
+				03862B8CD946F04162C61639 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147D12048347A3B4824DE542 /* ZettelmanLocalTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2512375AC203CAE9B2AA0AF /* AppointmentExtractorFixtureTests.swift */,
+				42FF50857B44A520C8D73BA6 /* SampleScanIntegrationTests.swift */,
+			);
+			name = ZettelmanLocalTests;
+			path = ZettelmanLocalTests;
+			sourceTree = "<group>";
+		};
+		1E7B0918D0104685A3F14385 /* ZettelmanLocal */ = {
+			isa = PBXGroup;
+			children = (
+				8F7CFBA23498CD5992C010DC /* App */,
+				633FD4DD2EDD9CB9604A15B6 /* Models */,
+				7DC4167CA01DADC6F7DCEB8E /* Services */,
+				95B98E67FA2C8D445DE865CA /* Features */,
+				C62368113BFD0DD9DA900147 /* Resources */,
+			);
+			name = ZettelmanLocal;
+			path = ZettelmanLocal;
+			sourceTree = "<group>";
+		};
+		5A923D4C78E0B6F3CE7CA0C4 = {
+			isa = PBXGroup;
+			children = (
+				857F2E8DBE90823D5C25BD8A /* Products */,
+				5D74F56A3509A64F49CEAC65 /* Frameworks */,
+				1E7B0918D0104685A3F14385 /* ZettelmanLocal */,
+				147D12048347A3B4824DE542 /* ZettelmanLocalTests */,
+			);
+			sourceTree = "<group>";
+		};
+		5D74F56A3509A64F49CEAC65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D72FFFE66A2F5CE1203018D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		633FD4DD2EDD9CB9604A15B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D946EAD67272100D8D52E3D0 /* AppointmentRecord.swift */,
+				8AD2EEE58D99069E90A9085D /* ExtractedAppointment.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D72FFFE66A2F5CE1203018D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F2DDAFB223E5AEEB28EE96EF /* Foundation.framework */,
+				8ECDDDAEF1DF56CF7515096A /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DC4167CA01DADC6F7DCEB8E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E509571028EC25FCEF9D9F50 /* AppointmentExtractor.swift */,
+				2DE1143A1B123A47EECD2612 /* AppointmentPresentation.swift */,
+				DB9E3BADC223F4EB4E6FB60B /* AppointmentScanner.swift */,
+				AF2820FFF8EC26B9F4EC1A55 /* OCRImagePreprocessor.swift */,
+				A8BC044C352C66720225E543 /* ScannedImageStore.swift */,
+				3FC03C38F6B37998A1123C33 /* TextRecognizer.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		857F2E8DBE90823D5C25BD8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7D01C92DC0A6E9B3B8F7802 /* ZettelmanLocal.app */,
+				04A370C90CD9C90E1EDCF0AD /* ZettelmanLocalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F7CFBA23498CD5992C010DC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				481F86BF87609099263DB852 /* ContentView.swift */,
+				6827E0B160E1C08807EFF40C /* ZettelmanLocalApp.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		95B98E67FA2C8D445DE865CA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CA54FA3CDA3D1EB1675DFBAE /* Appointments */,
+				C608107C0C817C9725DBAABC /* Scanner */,
+			);
+			name = Features;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		C608107C0C817C9725DBAABC /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				40ED2FC84DDDE83AA9CB4548 /* CameraPicker.swift */,
+				25A488C36169B5A5B9082684 /* PhotoLibraryPicker.swift */,
+				A42DCAE4D4CF31D907A97C95 /* ScanConfirmationView.swift */,
+			);
+			name = Scanner;
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		C62368113BFD0DD9DA900147 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				705FCF7ED15C166B9FEB3B29 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA54FA3CDA3D1EB1675DFBAE /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				24785784A29452D75DF903B8 /* AppointmentDetailView.swift */,
+				D86899797BB285DBC3C0F92C /* AppointmentListView.swift */,
+			);
+			name = Appointments;
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19FEC47EA1825C2806C4E108 /* ZettelmanLocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A65D528C3998449D9C0917 /* Build configuration list for PBXNativeTarget "ZettelmanLocal" */;
+			buildPhases = (
+				03D6E9E690281D59860BDBF6 /* Sources */,
+				60A56E578C0950110A4B3F1C /* Frameworks */,
+				8E9B3D93E016F51FDFACF8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZettelmanLocal;
+			productName = ZettelmanLocal;
+			productReference = C7D01C92DC0A6E9B3B8F7802 /* ZettelmanLocal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A9F6D686AE40422E7B17963 /* ZettelmanLocalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3803AFA245E487671FE749 /* Build configuration list for PBXNativeTarget "ZettelmanLocalTests" */;
+			buildPhases = (
+				11049EB0AA2C5BAF07BDC3BE /* Sources */,
+				9E09425AFFEEDE8026DC28F9 /* Frameworks */,
+				28F0627C141AE52E377941B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A62EA21FFBA1D3F9DEF7F718 /* PBXTargetDependency */,
+			);
+			name = ZettelmanLocalTests;
+			productName = ZettelmanLocalTests;
+			productReference = 04A370C90CD9C90E1EDCF0AD /* ZettelmanLocalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDADF0559DA42259C37EF488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = D7F8E8708F757080308595C2 /* Build configuration list for PBXProject "ZettelmanLocal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A923D4C78E0B6F3CE7CA0C4;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 857F2E8DBE90823D5C25BD8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19FEC47EA1825C2806C4E108 /* ZettelmanLocal */,
+				3A9F6D686AE40422E7B17963 /* ZettelmanLocalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F0627C141AE52E377941B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9B3D93E016F51FDFACF8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CB823BEBC91BD77597B26A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D6E9E690281D59860BDBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DD49BC79CC4595EE656AA2 /* ContentView.swift in Sources */,
+				BCBF984EAACCFF6DA75D4087 /* ZettelmanLocalApp.swift in Sources */,
+				9A9F95B69B5D667D0BE1B6AB /* AppointmentRecord.swift in Sources */,
+				CA832C81C4AEABA8ED7B6B8E /* ExtractedAppointment.swift in Sources */,
+				E8D43195AE7CB4767DEE72B2 /* AppointmentExtractor.swift in Sources */,
+				E872D8D8E021815DD2A85961 /* AppointmentPresentation.swift in Sources */,
+				47EA4D409FFE81F39E300166 /* AppointmentScanner.swift in Sources */,
+				B5042AE3D3F96498B79608CA /* OCRImagePreprocessor.swift in Sources */,
+				50F333F7572001BB32A2ED34 /* ScannedImageStore.swift in Sources */,
+				C1FE78DCCF511DDBE0267DDC /* TextRecognizer.swift in Sources */,
+				6C5E62E211FDC70E075806F0 /* AppointmentDetailView.swift in Sources */,
+				2A946C3E0B1F091F21223A31 /* AppointmentListView.swift in Sources */,
+				BA1B05A35D84E714549E1971 /* CameraPicker.swift in Sources */,
+				79155A4C0973B71FAAA36C44 /* PhotoLibraryPicker.swift in Sources */,
+				465380FB1D1FE6E7A1B51667 /* ScanConfirmationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11049EB0AA2C5BAF07BDC3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD15D76B1EA729AFE759EA0 /* AppointmentExtractorFixtureTests.swift in Sources */,
+				606C5261143C7AF6E712DB67 /* SampleScanIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A62EA21FFBA1D3F9DEF7F718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZettelmanLocal;
+			target = 19FEC47EA1825C2806C4E108 /* ZettelmanLocal */;
+			targetProxy = 7CD6B521C0D6FE3A80F8E94D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		089F22CB8E6FBCB7C0201D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ZettelmanLocal/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zettelmanlocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13B21F69EC7026D697C90713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ZettelmanLocal/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zettelmanlocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ADD88E2DB6747B65FEEA77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZettelmanLocal.app/ZettelmanLocal";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zettelmanlocal.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZettelmanLocal.app/ZettelmanLocal";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EE00BD731C7D7CAF1189DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BF231234A5A079813D289365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D63E1E4BAE000D9B05C9F6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZettelmanLocal.app/ZettelmanLocal";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zettelmanlocal.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZettelmanLocal.app/ZettelmanLocal";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3803AFA245E487671FE749 /* Build configuration list for PBXNativeTarget "ZettelmanLocalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADD88E2DB6747B65FEEA77F /* Release */,
+				D63E1E4BAE000D9B05C9F6D6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A65D528C3998449D9C0917 /* Build configuration list for PBXNativeTarget "ZettelmanLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B21F69EC7026D697C90713 /* Release */,
+				089F22CB8E6FBCB7C0201D04 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F8E8708F757080308595C2 /* Build configuration list for PBXProject "ZettelmanLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE00BD731C7D7CAF1189DB7 /* Debug */,
+				BF231234A5A079813D289365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDADF0559DA42259C37EF488 /* Project object */;
+}
