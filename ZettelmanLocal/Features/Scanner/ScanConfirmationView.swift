@@ -280,7 +280,7 @@ private struct QuickActionButton: View {
                 .font(.subheadline.weight(.semibold))
                 .padding(.horizontal, 12)
                 .padding(.vertical, 9)
-                .background(Color.black.opacity(0.06), in: Capsule())
+                .background(Color(uiColor: .secondarySystemFill), in: Capsule())
         }
         .buttonStyle(.plain)
     }

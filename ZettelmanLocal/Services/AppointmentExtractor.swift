@@ -589,8 +589,9 @@ struct AppointmentExtractor {
     }
 
     private func parseNumericDate(in text: String, referenceDate: Date) -> ParsedDate? {
+        let numericText = normalizeNumericLikeCharacters(in: text)
         let pattern = "(?:(?:mo|di|mi|do|fr|sa|so|montag|dienstag|mittwoch|donnerstag|freitag|samstag|sonntag)\\.?\\s*,?\\s*)?(\\d{1,2})[./-](\\d{1,2})(?:[./-]?(\\d{2,4}))?(?:\\s*(?:um)?\\s*(\\d{1,2})[:.](\\d{2})\\s*(?:uhr|umr|uhrz)?\\b)?"
-        return firstParsedDate(in: text, pattern: pattern) { groups in
+        return firstParsedDate(in: numericText, pattern: pattern) { groups in
             guard let day = Int(groups[0]), let month = Int(groups[1]) else {
                 return nil
             }
@@ -625,8 +626,8 @@ struct AppointmentExtractor {
     }
 
     private func parseTime(in text: String) -> (hour: Int, minute: Int)? {
-        let normalizedText = normalizeOCRArtifacts(folded(text))
-        let pattern = #"(\d{1,2})[:.](\d{2})"#
+        let normalizedText = normalizeNumericLikeCharacters(in: normalizeOCRArtifacts(folded(text)))
+        let pattern = #"(?<![\d.])(\d{1,2})[:.](\d{2})(?![\d./-])"#
         guard let regex = try? NSRegularExpression(pattern: pattern) else {
             return nil
         }
@@ -908,6 +909,24 @@ struct AppointmentExtractor {
             options: .regularExpression
         )
         return normalized
+    }
+
+    private func normalizeNumericLikeCharacters(in text: String) -> String {
+        let mappedScalars = text.unicodeScalars.map { scalar -> UnicodeScalar in
+            switch scalar {
+            case "o", "O":
+                return "0"
+            case "l", "I", "i", "|", "!":
+                return "1"
+            case "s", "S":
+                return "5"
+            case "b", "B":
+                return "8"
+            default:
+                return scalar
+            }
+        }
+        return String(String.UnicodeScalarView(mappedScalars))
     }
 
     private func words(in text: String) -> [String] {

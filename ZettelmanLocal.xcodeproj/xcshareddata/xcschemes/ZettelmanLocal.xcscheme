@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "19FEC47EA1825C2806C4E108"
+               BlueprintIdentifier = "C6BCE3D7B4D99261579D1F2A"
                BuildableName = "ZettelmanLocal.app"
                BlueprintName = "ZettelmanLocal"
                ReferencedContainer = "container:ZettelmanLocal.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3A9F6D686AE40422E7B17963"
+               BlueprintIdentifier = "D908325041A5B8C06BF7F22B"
                BuildableName = "ZettelmanLocalTests.xctest"
                BlueprintName = "ZettelmanLocalTests"
                ReferencedContainer = "container:ZettelmanLocal.xcodeproj">
@@ -44,7 +44,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "19FEC47EA1825C2806C4E108"
+            BlueprintIdentifier = "C6BCE3D7B4D99261579D1F2A"
             BuildableName = "ZettelmanLocal.app"
             BlueprintName = "ZettelmanLocal"
             ReferencedContainer = "container:ZettelmanLocal.xcodeproj">
@@ -55,7 +55,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3A9F6D686AE40422E7B17963"
+               BlueprintIdentifier = "D908325041A5B8C06BF7F22B"
                BuildableName = "ZettelmanLocalTests.xctest"
                BlueprintName = "ZettelmanLocalTests"
                ReferencedContainer = "container:ZettelmanLocal.xcodeproj">
@@ -77,7 +77,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "19FEC47EA1825C2806C4E108"
+            BlueprintIdentifier = "C6BCE3D7B4D99261579D1F2A"
             BuildableName = "ZettelmanLocal.app"
             BlueprintName = "ZettelmanLocal"
             ReferencedContainer = "container:ZettelmanLocal.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "19FEC47EA1825C2806C4E108"
+            BlueprintIdentifier = "C6BCE3D7B4D99261579D1F2A"
             BuildableName = "ZettelmanLocal.app"
             BlueprintName = "ZettelmanLocal"
             ReferencedContainer = "container:ZettelmanLocal.xcodeproj">

@@ -66,6 +66,23 @@ final class AppointmentExtractorFixtureTests: XCTestCase {
         XCTAssertTrue(extracted.location.value.contains("Samir Youssef"))
     }
 
+    func testDentalCardFixtureWithNoisyTimeCharacters() {
+        let extracted = extractor.extract(
+            from: recognizedText([
+                "Zahnarztpraxis Samir Youssef",
+                "Ihr naechster Termin bei uns:",
+                "Datum",
+                "Uhrzeit",
+                "19.3.26 1l:I5",
+                "Marktstrasse 65 | 68789 St. Leon-Rot"
+            ]),
+            referenceDate: referenceDate()
+        )
+
+        assertDate(extracted.appointmentDate.value, year: 2026, month: 3, day: 19, hour: 11, minute: 15)
+        XCTAssertTrue(extracted.appointmentDate.hasSpecificTime)
+    }
+
     func testPhysioHeaderFallsBackToPhysiotherapySummary() {
         let extracted = extractor.extract(
             from: recognizedText([

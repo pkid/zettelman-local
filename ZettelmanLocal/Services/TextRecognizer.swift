@@ -87,20 +87,64 @@ struct TextRecognizer {
     private static func score(for recognizedText: RecognizedText, candidate: OCRPreparedImage) -> Double {
         let plainText = recognizedText.plainText
         let foldedText = plainText.folding(options: [.caseInsensitive, .diacriticInsensitive], locale: Locale(identifier: "de_DE")).lowercased()
+        let numericFoldedText = normalizedNumericLikeCharacters(in: foldedText)
         let totalConfidence = recognizedText.lines.reduce(0.0) { $0 + Double($1.confidence) }
         let keywordHits = ["termin", "datum", "uhr", "praxis", "dr", "labor", "zahnarzt", "frau", "hausarzt"]
             .filter { foldedText.contains($0) }
             .count
         let digitCount = plainText.unicodeScalars.filter { CharacterSet.decimalDigits.contains($0) }.count
+        let hasDatePattern = containsDatePattern(in: numericFoldedText)
+        let hasTimePattern = containsTimePattern(in: numericFoldedText)
+        let hasLineWithDateAndTime = recognizedText.lines.contains { line in
+            let normalized = normalizedNumericLikeCharacters(
+                in: line.text.folding(options: [.caseInsensitive, .diacriticInsensitive], locale: Locale(identifier: "de_DE")).lowercased()
+            )
+            return containsDatePattern(in: normalized) && containsTimePattern(in: normalized)
+        }
 
         var score = totalConfidence * 10.0
         score += Double(recognizedText.lines.count * 3)
         score += Double(keywordHits * 6)
         score += Double(digitCount) * 0.08
+        if hasDatePattern {
+            score += 18
+        }
+        if hasTimePattern {
+            score += 10
+        }
+        if hasLineWithDateAndTime {
+            score += 16
+        }
         if candidate.wasCropped {
             score += 1.2
         }
         return score
+    }
+
+    private static func containsDatePattern(in text: String) -> Bool {
+        text.range(of: #"\b\d{1,2}[./-]\d{1,2}(?:[./-]?\d{2,4})?\b"#, options: .regularExpression) != nil
+    }
+
+    private static func containsTimePattern(in text: String) -> Bool {
+        text.range(of: #"\b\d{1,2}[:.]\d{2}\b"#, options: .regularExpression) != nil
+    }
+
+    private static func normalizedNumericLikeCharacters(in text: String) -> String {
+        let mappedScalars = text.unicodeScalars.map { scalar -> UnicodeScalar in
+            switch scalar {
+            case "o", "O":
+                return "0"
+            case "l", "I", "i", "|", "!":
+                return "1"
+            case "s", "S":
+                return "5"
+            case "b", "B":
+                return "8"
+            default:
+                return scalar
+            }
+        }
+        return String(String.UnicodeScalarView(mappedScalars))
     }
 
     private static func readingOrder(lhs: RecognizedLine, rhs: RecognizedLine) -> Bool {

@@ -3,6 +3,7 @@ import SwiftUI
 import UIKit
 
 struct AppointmentListView: View {
+    @Environment(\.colorScheme) private var colorScheme
     @Environment(\.modelContext) private var modelContext
     @Query(sort: \AppointmentRecord.appointmentDate, order: .forward) private var appointments: [AppointmentRecord]
 
@@ -13,11 +14,60 @@ struct AppointmentListView: View {
     @State private var pendingScan: PendingScan?
     @State private var alertMessage: AlertMessage?
 
+    private var backgroundGradientColors: [Color] {
+        if colorScheme == .dark {
+            return [
+                Color(red: 0.09, green: 0.10, blue: 0.12),
+                Color(red: 0.13, green: 0.15, blue: 0.19)
+            ]
+        }
+        return [
+            Color(red: 0.97, green: 0.95, blue: 0.90),
+            Color(red: 0.93, green: 0.95, blue: 0.93)
+        ]
+    }
+
+    private var rowBackgroundColor: Color {
+        if colorScheme == .dark {
+            return Color(red: 0.16, green: 0.18, blue: 0.22).opacity(0.9)
+        }
+        return Color.white.opacity(0.86)
+    }
+
+    private var callToActionGradient: LinearGradient {
+        if colorScheme == .dark {
+            return LinearGradient(
+                colors: [Color(red: 0.14, green: 0.62, blue: 0.69), Color(red: 0.11, green: 0.49, blue: 0.75)],
+                startPoint: .leading,
+                endPoint: .trailing
+            )
+        }
+        return LinearGradient(
+            colors: [Color.black.opacity(0.88), Color.black],
+            startPoint: .leading,
+            endPoint: .trailing
+        )
+    }
+
+    private var emptyStateCardBackground: Color {
+        if colorScheme == .dark {
+            return Color(red: 0.15, green: 0.17, blue: 0.21).opacity(0.78)
+        }
+        return Color.white.opacity(0.36)
+    }
+
+    private var emptyStateCardBorder: Color {
+        if colorScheme == .dark {
+            return Color.white.opacity(0.08)
+        }
+        return Color.black.opacity(0.06)
+    }
+
     var body: some View {
         NavigationStack {
             ZStack {
                 LinearGradient(
-                    colors: [Color(red: 0.97, green: 0.95, blue: 0.90), Color(red: 0.93, green: 0.95, blue: 0.93)],
+                    colors: backgroundGradientColors,
                     startPoint: .topLeading,
                     endPoint: .bottomTrailing
                 )
@@ -34,7 +84,7 @@ struct AppointmentListView: View {
                                 } label: {
                                     AppointmentRowView(appointment: appointment)
                                 }
-                                .listRowBackground(Color.white.opacity(0.86))
+                                .listRowBackground(rowBackgroundColor)
                             }
                             .onDelete(perform: deleteAppointments)
                         }
@@ -124,16 +174,22 @@ struct AppointmentListView: View {
                     .font(.headline)
                     .padding(.horizontal, 20)
                     .padding(.vertical, 12)
-                    .background(Color.black.opacity(0.88), in: Capsule())
+                    .background(callToActionGradient, in: Capsule())
                     .foregroundStyle(.white)
             }
         }
         .padding(32)
+        .background(emptyStateCardBackground, in: RoundedRectangle(cornerRadius: 34, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 34, style: .continuous)
+                .strokeBorder(emptyStateCardBorder, lineWidth: 1)
+        )
+        .padding(.horizontal, 16)
     }
 
     private var processingOverlay: some View {
         ZStack {
-            Color.black.opacity(0.18)
+            Color.black.opacity(colorScheme == .dark ? 0.32 : 0.18)
                 .ignoresSafeArea()
 
             VStack(spacing: 14) {

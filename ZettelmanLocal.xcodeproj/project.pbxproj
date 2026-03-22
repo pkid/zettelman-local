@@ -7,228 +7,219 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03862B8CD946F04162C61639 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECDDDAEF1DF56CF7515096A /* XCTest.framework */; };
-		2A946C3E0B1F091F21223A31 /* AppointmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86899797BB285DBC3C0F92C /* AppointmentListView.swift */; };
-		3C2E060D25273FB84C6A1B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DDAFB223E5AEEB28EE96EF /* Foundation.framework */; };
-		465380FB1D1FE6E7A1B51667 /* ScanConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DCAE4D4CF31D907A97C95 /* ScanConfirmationView.swift */; };
-		47EA4D409FFE81F39E300166 /* AppointmentScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E3BADC223F4EB4E6FB60B /* AppointmentScanner.swift */; };
-		48CB823BEBC91BD77597B26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705FCF7ED15C166B9FEB3B29 /* Assets.xcassets */; };
-		50F333F7572001BB32A2ED34 /* ScannedImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC044C352C66720225E543 /* ScannedImageStore.swift */; };
-		606C5261143C7AF6E712DB67 /* SampleScanIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FF50857B44A520C8D73BA6 /* SampleScanIntegrationTests.swift */; };
-		65DD49BC79CC4595EE656AA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F86BF87609099263DB852 /* ContentView.swift */; };
-		6C5E62E211FDC70E075806F0 /* AppointmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24785784A29452D75DF903B8 /* AppointmentDetailView.swift */; };
-		79155A4C0973B71FAAA36C44 /* PhotoLibraryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A488C36169B5A5B9082684 /* PhotoLibraryPicker.swift */; };
-		8FD15D76B1EA729AFE759EA0 /* AppointmentExtractorFixtureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2512375AC203CAE9B2AA0AF /* AppointmentExtractorFixtureTests.swift */; };
-		9A9F95B69B5D667D0BE1B6AB /* AppointmentRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946EAD67272100D8D52E3D0 /* AppointmentRecord.swift */; };
-		B5042AE3D3F96498B79608CA /* OCRImagePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2820FFF8EC26B9F4EC1A55 /* OCRImagePreprocessor.swift */; };
-		BA1B05A35D84E714549E1971 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED2FC84DDDE83AA9CB4548 /* CameraPicker.swift */; };
-		BCBF984EAACCFF6DA75D4087 /* ZettelmanLocalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6827E0B160E1C08807EFF40C /* ZettelmanLocalApp.swift */; };
-		C1FE78DCCF511DDBE0267DDC /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC03C38F6B37998A1123C33 /* TextRecognizer.swift */; };
-		CA832C81C4AEABA8ED7B6B8E /* ExtractedAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD2EEE58D99069E90A9085D /* ExtractedAppointment.swift */; };
-		D78F4F49808BDF21099BE6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DDAFB223E5AEEB28EE96EF /* Foundation.framework */; };
-		E872D8D8E021815DD2A85961 /* AppointmentPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1143A1B123A47EECD2612 /* AppointmentPresentation.swift */; };
-		E8D43195AE7CB4767DEE72B2 /* AppointmentExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509571028EC25FCEF9D9F50 /* AppointmentExtractor.swift */; };
+		0A8ACB56893F1D49727C472C /* ZettelmanLocalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F0A0890BD50D3007DDDCD /* ZettelmanLocalApp.swift */; };
+		1059FEB285D620F6F7A3F5D4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADD9C0CD7AB3B16E3919D82 /* XCTest.framework */; };
+		1B81938F598CBA5EA6E93592 /* PhotoLibraryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D61D2B1C9F72C690196F33 /* PhotoLibraryPicker.swift */; };
+		1BE02E115BB56B7568ED7884 /* ScannedImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C3C86C35325CC66769200 /* ScannedImageStore.swift */; };
+		1C830DEAC9402C0F171F4104 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8461851F57E21E6E87D79 /* ContentView.swift */; };
+		221A3F3C8409C0A00082A2DC /* AppointmentPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49201A16499918C2C7B77D83 /* AppointmentPresentation.swift */; };
+		288759A895F49D0F9220F081 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EB9826EF287E33C3E9FA2 /* TextRecognizer.swift */; };
+		7D918E8C0A6273280FB73763 /* ExtractedAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59464A2AE082BB1399C1B3FC /* ExtractedAppointment.swift */; };
+		802D2FEAD84269A29AB82B14 /* AppointmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA21E2D8E7EFBD18A18E150 /* AppointmentDetailView.swift */; };
+		8D948ABF6F55AA4BB98B5B7B /* AppointmentExtractorFixtureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75335ECB203D1C14D94880E4 /* AppointmentExtractorFixtureTests.swift */; };
+		A41A8FC4A7CE99942662B96F /* AppointmentScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08198F6AE731478CDFC55D /* AppointmentScanner.swift */; };
+		A82A0C8C7B4EFFC835D4029E /* AppointmentRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9B38141EAA06A34439C7A /* AppointmentRecord.swift */; };
+		AAB8BC996B43F2EB9CB8E941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEB124358694BADBEE37E07 /* Assets.xcassets */; };
+		D0A8E5ECB3319816ABA9A54A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25C83511CAFA6A2C2975715 /* Foundation.framework */; };
+		D21313AD5A7CE82AF526828D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25C83511CAFA6A2C2975715 /* Foundation.framework */; };
+		D313EFB25D7993AED7FCE70B /* AppointmentExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD323788699525091ECFA0C /* AppointmentExtractor.swift */; };
+		D6A228815C735CA1474C2625 /* AppointmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E937EF848C11A1B858333B /* AppointmentListView.swift */; };
+		E7A7A992470A2A6070023DE8 /* ScanConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE4F539EF6676E08739A6A2 /* ScanConfirmationView.swift */; };
+		F23CAAB4FCE88485C845E50B /* OCRImagePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0875D25AD56BB8F4D941D /* OCRImagePreprocessor.swift */; };
+		F76137DE686A1868D5A1B86C /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583FF2A6491276AADD712518 /* CameraPicker.swift */; };
+		FF842165066DE8A1D9F61087 /* SampleScanIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4638AC65F59F12F4837D0D2 /* SampleScanIntegrationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7CD6B521C0D6FE3A80F8E94D /* PBXContainerItemProxy */ = {
+		4A9E255AAB6DDAD060A99D93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CDADF0559DA42259C37EF488 /* Project object */;
+			containerPortal = 95FC311EA008961D54BD56A2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 19FEC47EA1825C2806C4E108;
+			remoteGlobalIDString = C6BCE3D7B4D99261579D1F2A;
 			remoteInfo = ZettelmanLocal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A370C90CD9C90E1EDCF0AD /* ZettelmanLocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZettelmanLocalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24785784A29452D75DF903B8 /* AppointmentDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentDetailView.swift; sourceTree = "<group>"; };
-		25A488C36169B5A5B9082684 /* PhotoLibraryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoLibraryPicker.swift; sourceTree = "<group>"; };
-		2DE1143A1B123A47EECD2612 /* AppointmentPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentPresentation.swift; sourceTree = "<group>"; };
-		3FC03C38F6B37998A1123C33 /* TextRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
-		40ED2FC84DDDE83AA9CB4548 /* CameraPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
-		42FF50857B44A520C8D73BA6 /* SampleScanIntegrationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SampleScanIntegrationTests.swift; sourceTree = "<group>"; };
-		481F86BF87609099263DB852 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6827E0B160E1C08807EFF40C /* ZettelmanLocalApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZettelmanLocalApp.swift; sourceTree = "<group>"; };
-		705FCF7ED15C166B9FEB3B29 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8AD2EEE58D99069E90A9085D /* ExtractedAppointment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExtractedAppointment.swift; sourceTree = "<group>"; };
-		8ECDDDAEF1DF56CF7515096A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A42DCAE4D4CF31D907A97C95 /* ScanConfirmationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanConfirmationView.swift; sourceTree = "<group>"; };
-		A8BC044C352C66720225E543 /* ScannedImageStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScannedImageStore.swift; sourceTree = "<group>"; };
-		AF2820FFF8EC26B9F4EC1A55 /* OCRImagePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OCRImagePreprocessor.swift; sourceTree = "<group>"; };
-		C7D01C92DC0A6E9B3B8F7802 /* ZettelmanLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZettelmanLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D86899797BB285DBC3C0F92C /* AppointmentListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentListView.swift; sourceTree = "<group>"; };
-		D946EAD67272100D8D52E3D0 /* AppointmentRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentRecord.swift; sourceTree = "<group>"; };
-		DB9E3BADC223F4EB4E6FB60B /* AppointmentScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentScanner.swift; sourceTree = "<group>"; };
-		E2512375AC203CAE9B2AA0AF /* AppointmentExtractorFixtureTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentExtractorFixtureTests.swift; sourceTree = "<group>"; };
-		E509571028EC25FCEF9D9F50 /* AppointmentExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentExtractor.swift; sourceTree = "<group>"; };
-		F2DDAFB223E5AEEB28EE96EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0DD323788699525091ECFA0C /* AppointmentExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentExtractor.swift; sourceTree = "<group>"; };
+		0EC0875D25AD56BB8F4D941D /* OCRImagePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OCRImagePreprocessor.swift; sourceTree = "<group>"; };
+		16D61D2B1C9F72C690196F33 /* PhotoLibraryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoLibraryPicker.swift; sourceTree = "<group>"; };
+		1AA21E2D8E7EFBD18A18E150 /* AppointmentDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentDetailView.swift; sourceTree = "<group>"; };
+		2EE4F539EF6676E08739A6A2 /* ScanConfirmationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanConfirmationView.swift; sourceTree = "<group>"; };
+		2F08198F6AE731478CDFC55D /* AppointmentScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentScanner.swift; sourceTree = "<group>"; };
+		49201A16499918C2C7B77D83 /* AppointmentPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentPresentation.swift; sourceTree = "<group>"; };
+		4ADD9C0CD7AB3B16E3919D82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		583FF2A6491276AADD712518 /* CameraPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		59464A2AE082BB1399C1B3FC /* ExtractedAppointment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExtractedAppointment.swift; sourceTree = "<group>"; };
+		75335ECB203D1C14D94880E4 /* AppointmentExtractorFixtureTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentExtractorFixtureTests.swift; sourceTree = "<group>"; };
+		7FD59A92AA54D9C0AAAFBBBB /* ZettelmanLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZettelmanLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C9B38141EAA06A34439C7A /* AppointmentRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentRecord.swift; sourceTree = "<group>"; };
+		9A2F0A0890BD50D3007DDDCD /* ZettelmanLocalApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZettelmanLocalApp.swift; sourceTree = "<group>"; };
+		A25C83511CAFA6A2C2975715 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AD9D5BF5FFDD4EBAB1B8FC04 /* ZettelmanLocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZettelmanLocalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB124358694BADBEE37E07 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01C3C86C35325CC66769200 /* ScannedImageStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScannedImageStore.swift; sourceTree = "<group>"; };
+		C4638AC65F59F12F4837D0D2 /* SampleScanIntegrationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SampleScanIntegrationTests.swift; sourceTree = "<group>"; };
+		CB8EB9826EF287E33C3E9FA2 /* TextRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		E1E937EF848C11A1B858333B /* AppointmentListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentListView.swift; sourceTree = "<group>"; };
+		EFC8461851F57E21E6E87D79 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60A56E578C0950110A4B3F1C /* Frameworks */ = {
+		B020FFE1719D7548A84A5495 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C2E060D25273FB84C6A1B60 /* Foundation.framework in Frameworks */,
+				D21313AD5A7CE82AF526828D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E09425AFFEEDE8026DC28F9 /* Frameworks */ = {
+		D786B1B452BF91E22445D3DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78F4F49808BDF21099BE6AF /* Foundation.framework in Frameworks */,
-				03862B8CD946F04162C61639 /* XCTest.framework in Frameworks */,
+				D0A8E5ECB3319816ABA9A54A /* Foundation.framework in Frameworks */,
+				1059FEB285D620F6F7A3F5D4 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		147D12048347A3B4824DE542 /* ZettelmanLocalTests */ = {
+		058FFFD6591488349CE362BE /* ZettelmanLocal */ = {
 			isa = PBXGroup;
 			children = (
-				E2512375AC203CAE9B2AA0AF /* AppointmentExtractorFixtureTests.swift */,
-				42FF50857B44A520C8D73BA6 /* SampleScanIntegrationTests.swift */,
+				E0EE415A2EAB8BA7478234A3 /* App */,
+				E687706C2E54C078BE7ADAF2 /* Models */,
+				2EC19A6708B31D7878D74050 /* Services */,
+				FF18E0DA039DADEB4424332A /* Features */,
+				5377B1E33A4B33CFE913DDB4 /* Resources */,
 			);
-			name = ZettelmanLocalTests;
-			path = ZettelmanLocalTests;
-			sourceTree = "<group>";
-		};
-		1E7B0918D0104685A3F14385 /* ZettelmanLocal */ = {
-			isa = PBXGroup;
-			children = (
-				8F7CFBA23498CD5992C010DC /* App */,
-				633FD4DD2EDD9CB9604A15B6 /* Models */,
-				7DC4167CA01DADC6F7DCEB8E /* Services */,
-				95B98E67FA2C8D445DE865CA /* Features */,
-				C62368113BFD0DD9DA900147 /* Resources */,
-			);
-			name = ZettelmanLocal;
 			path = ZettelmanLocal;
 			sourceTree = "<group>";
 		};
-		5A923D4C78E0B6F3CE7CA0C4 = {
+		12345FC893A68AB9DA850EF8 /* Scanner */ = {
 			isa = PBXGroup;
 			children = (
-				857F2E8DBE90823D5C25BD8A /* Products */,
-				5D74F56A3509A64F49CEAC65 /* Frameworks */,
-				1E7B0918D0104685A3F14385 /* ZettelmanLocal */,
-				147D12048347A3B4824DE542 /* ZettelmanLocalTests */,
+				583FF2A6491276AADD712518 /* CameraPicker.swift */,
+				16D61D2B1C9F72C690196F33 /* PhotoLibraryPicker.swift */,
+				2EE4F539EF6676E08739A6A2 /* ScanConfirmationView.swift */,
 			);
+			path = Scanner;
 			sourceTree = "<group>";
 		};
-		5D74F56A3509A64F49CEAC65 /* Frameworks */ = {
+		139F4533B4DED794016F38EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D72FFFE66A2F5CE1203018D /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		633FD4DD2EDD9CB9604A15B6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D946EAD67272100D8D52E3D0 /* AppointmentRecord.swift */,
-				8AD2EEE58D99069E90A9085D /* ExtractedAppointment.swift */,
-			);
-			name = Models;
-			path = Models;
-			sourceTree = "<group>";
-		};
-		6D72FFFE66A2F5CE1203018D /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F2DDAFB223E5AEEB28EE96EF /* Foundation.framework */,
-				8ECDDDAEF1DF56CF7515096A /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DC4167CA01DADC6F7DCEB8E /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				E509571028EC25FCEF9D9F50 /* AppointmentExtractor.swift */,
-				2DE1143A1B123A47EECD2612 /* AppointmentPresentation.swift */,
-				DB9E3BADC223F4EB4E6FB60B /* AppointmentScanner.swift */,
-				AF2820FFF8EC26B9F4EC1A55 /* OCRImagePreprocessor.swift */,
-				A8BC044C352C66720225E543 /* ScannedImageStore.swift */,
-				3FC03C38F6B37998A1123C33 /* TextRecognizer.swift */,
-			);
-			name = Services;
-			path = Services;
-			sourceTree = "<group>";
-		};
-		857F2E8DBE90823D5C25BD8A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C7D01C92DC0A6E9B3B8F7802 /* ZettelmanLocal.app */,
-				04A370C90CD9C90E1EDCF0AD /* ZettelmanLocalTests.xctest */,
+				7FD59A92AA54D9C0AAAFBBBB /* ZettelmanLocal.app */,
+				AD9D5BF5FFDD4EBAB1B8FC04 /* ZettelmanLocalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F7CFBA23498CD5992C010DC /* App */ = {
+		2C94428BC8FC9C27EDDDE83C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				481F86BF87609099263DB852 /* ContentView.swift */,
-				6827E0B160E1C08807EFF40C /* ZettelmanLocalApp.swift */,
+				A25C83511CAFA6A2C2975715 /* Foundation.framework */,
+				4ADD9C0CD7AB3B16E3919D82 /* XCTest.framework */,
 			);
-			name = App;
-			path = App;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		95B98E67FA2C8D445DE865CA /* Features */ = {
+		2EC19A6708B31D7878D74050 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				CA54FA3CDA3D1EB1675DFBAE /* Appointments */,
-				C608107C0C817C9725DBAABC /* Scanner */,
+				0DD323788699525091ECFA0C /* AppointmentExtractor.swift */,
+				49201A16499918C2C7B77D83 /* AppointmentPresentation.swift */,
+				2F08198F6AE731478CDFC55D /* AppointmentScanner.swift */,
+				0EC0875D25AD56BB8F4D941D /* OCRImagePreprocessor.swift */,
+				C01C3C86C35325CC66769200 /* ScannedImageStore.swift */,
+				CB8EB9826EF287E33C3E9FA2 /* TextRecognizer.swift */,
 			);
-			name = Features;
-			path = Features;
+			path = Services;
 			sourceTree = "<group>";
 		};
-		C608107C0C817C9725DBAABC /* Scanner */ = {
+		312049C8E0CAC222CA3943BF = {
 			isa = PBXGroup;
 			children = (
-				40ED2FC84DDDE83AA9CB4548 /* CameraPicker.swift */,
-				25A488C36169B5A5B9082684 /* PhotoLibraryPicker.swift */,
-				A42DCAE4D4CF31D907A97C95 /* ScanConfirmationView.swift */,
+				139F4533B4DED794016F38EE /* Products */,
+				3AB186EEF09A5E341E765A41 /* Frameworks */,
+				058FFFD6591488349CE362BE /* ZettelmanLocal */,
+				E3E8E267C670617C863DB192 /* ZettelmanLocalTests */,
 			);
-			name = Scanner;
-			path = Scanner;
 			sourceTree = "<group>";
 		};
-		C62368113BFD0DD9DA900147 /* Resources */ = {
+		3AB186EEF09A5E341E765A41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				705FCF7ED15C166B9FEB3B29 /* Assets.xcassets */,
+				2C94428BC8FC9C27EDDDE83C /* iOS */,
 			);
-			name = Resources;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5377B1E33A4B33CFE913DDB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB124358694BADBEE37E07 /* Assets.xcassets */,
+			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		CA54FA3CDA3D1EB1675DFBAE /* Appointments */ = {
+		D6B0224B9F61E521D5961D67 /* Appointments */ = {
 			isa = PBXGroup;
 			children = (
-				24785784A29452D75DF903B8 /* AppointmentDetailView.swift */,
-				D86899797BB285DBC3C0F92C /* AppointmentListView.swift */,
+				1AA21E2D8E7EFBD18A18E150 /* AppointmentDetailView.swift */,
+				E1E937EF848C11A1B858333B /* AppointmentListView.swift */,
 			);
-			name = Appointments;
 			path = Appointments;
+			sourceTree = "<group>";
+		};
+		E0EE415A2EAB8BA7478234A3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8461851F57E21E6E87D79 /* ContentView.swift */,
+				9A2F0A0890BD50D3007DDDCD /* ZettelmanLocalApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E3E8E267C670617C863DB192 /* ZettelmanLocalTests */ = {
+			isa = PBXGroup;
+			children = (
+				75335ECB203D1C14D94880E4 /* AppointmentExtractorFixtureTests.swift */,
+				C4638AC65F59F12F4837D0D2 /* SampleScanIntegrationTests.swift */,
+			);
+			path = ZettelmanLocalTests;
+			sourceTree = "<group>";
+		};
+		E687706C2E54C078BE7ADAF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81C9B38141EAA06A34439C7A /* AppointmentRecord.swift */,
+				59464A2AE082BB1399C1B3FC /* ExtractedAppointment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF18E0DA039DADEB4424332A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D6B0224B9F61E521D5961D67 /* Appointments */,
+				12345FC893A68AB9DA850EF8 /* Scanner */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19FEC47EA1825C2806C4E108 /* ZettelmanLocal */ = {
+		C6BCE3D7B4D99261579D1F2A /* ZettelmanLocal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0A65D528C3998449D9C0917 /* Build configuration list for PBXNativeTarget "ZettelmanLocal" */;
+			buildConfigurationList = 544CBCAA5D66A3A6AF54694A /* Build configuration list for PBXNativeTarget "ZettelmanLocal" */;
 			buildPhases = (
-				03D6E9E690281D59860BDBF6 /* Sources */,
-				60A56E578C0950110A4B3F1C /* Frameworks */,
-				8E9B3D93E016F51FDFACF8CA /* Resources */,
+				810A112E4B549491197AE88F /* Sources */,
+				B020FFE1719D7548A84A5495 /* Frameworks */,
+				6AD781A5FEA489EADEA341AE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -236,37 +227,46 @@
 			);
 			name = ZettelmanLocal;
 			productName = ZettelmanLocal;
-			productReference = C7D01C92DC0A6E9B3B8F7802 /* ZettelmanLocal.app */;
+			productReference = 7FD59A92AA54D9C0AAAFBBBB /* ZettelmanLocal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3A9F6D686AE40422E7B17963 /* ZettelmanLocalTests */ = {
+		D908325041A5B8C06BF7F22B /* ZettelmanLocalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A3803AFA245E487671FE749 /* Build configuration list for PBXNativeTarget "ZettelmanLocalTests" */;
+			buildConfigurationList = 957673A45D9340D597C253E8 /* Build configuration list for PBXNativeTarget "ZettelmanLocalTests" */;
 			buildPhases = (
-				11049EB0AA2C5BAF07BDC3BE /* Sources */,
-				9E09425AFFEEDE8026DC28F9 /* Frameworks */,
-				28F0627C141AE52E377941B7 /* Resources */,
+				383184D829095A52E4793F75 /* Sources */,
+				D786B1B452BF91E22445D3DE /* Frameworks */,
+				3D85759BAED52525DA425799 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A62EA21FFBA1D3F9DEF7F718 /* PBXTargetDependency */,
+				727DAB49F3CFD03BCD563953 /* PBXTargetDependency */,
 			);
 			name = ZettelmanLocalTests;
 			productName = ZettelmanLocalTests;
-			productReference = 04A370C90CD9C90E1EDCF0AD /* ZettelmanLocalTests.xctest */;
+			productReference = AD9D5BF5FFDD4EBAB1B8FC04 /* ZettelmanLocalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDADF0559DA42259C37EF488 /* Project object */ = {
+		95FC311EA008961D54BD56A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					C6BCE3D7B4D99261579D1F2A = {
+						DevelopmentTeam = 5QUG2XD3BZ;
+						ProvisioningStyle = Automatic;
+					};
+					D908325041A5B8C06BF7F22B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
-			buildConfigurationList = D7F8E8708F757080308595C2 /* Build configuration list for PBXProject "ZettelmanLocal" */;
+			buildConfigurationList = A4F258116069654D63049F16 /* Build configuration list for PBXProject "ZettelmanLocal" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -274,82 +274,80 @@
 				en,
 				Base,
 			);
-			mainGroup = 5A923D4C78E0B6F3CE7CA0C4;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 857F2E8DBE90823D5C25BD8A /* Products */;
+			mainGroup = 312049C8E0CAC222CA3943BF;
+			productRefGroup = 139F4533B4DED794016F38EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19FEC47EA1825C2806C4E108 /* ZettelmanLocal */,
-				3A9F6D686AE40422E7B17963 /* ZettelmanLocalTests */,
+				C6BCE3D7B4D99261579D1F2A /* ZettelmanLocal */,
+				D908325041A5B8C06BF7F22B /* ZettelmanLocalTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28F0627C141AE52E377941B7 /* Resources */ = {
+		3D85759BAED52525DA425799 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E9B3D93E016F51FDFACF8CA /* Resources */ = {
+		6AD781A5FEA489EADEA341AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48CB823BEBC91BD77597B26A /* Assets.xcassets in Resources */,
+				AAB8BC996B43F2EB9CB8E941 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03D6E9E690281D59860BDBF6 /* Sources */ = {
+		383184D829095A52E4793F75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DD49BC79CC4595EE656AA2 /* ContentView.swift in Sources */,
-				BCBF984EAACCFF6DA75D4087 /* ZettelmanLocalApp.swift in Sources */,
-				9A9F95B69B5D667D0BE1B6AB /* AppointmentRecord.swift in Sources */,
-				CA832C81C4AEABA8ED7B6B8E /* ExtractedAppointment.swift in Sources */,
-				E8D43195AE7CB4767DEE72B2 /* AppointmentExtractor.swift in Sources */,
-				E872D8D8E021815DD2A85961 /* AppointmentPresentation.swift in Sources */,
-				47EA4D409FFE81F39E300166 /* AppointmentScanner.swift in Sources */,
-				B5042AE3D3F96498B79608CA /* OCRImagePreprocessor.swift in Sources */,
-				50F333F7572001BB32A2ED34 /* ScannedImageStore.swift in Sources */,
-				C1FE78DCCF511DDBE0267DDC /* TextRecognizer.swift in Sources */,
-				6C5E62E211FDC70E075806F0 /* AppointmentDetailView.swift in Sources */,
-				2A946C3E0B1F091F21223A31 /* AppointmentListView.swift in Sources */,
-				BA1B05A35D84E714549E1971 /* CameraPicker.swift in Sources */,
-				79155A4C0973B71FAAA36C44 /* PhotoLibraryPicker.swift in Sources */,
-				465380FB1D1FE6E7A1B51667 /* ScanConfirmationView.swift in Sources */,
+				8D948ABF6F55AA4BB98B5B7B /* AppointmentExtractorFixtureTests.swift in Sources */,
+				FF842165066DE8A1D9F61087 /* SampleScanIntegrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11049EB0AA2C5BAF07BDC3BE /* Sources */ = {
+		810A112E4B549491197AE88F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FD15D76B1EA729AFE759EA0 /* AppointmentExtractorFixtureTests.swift in Sources */,
-				606C5261143C7AF6E712DB67 /* SampleScanIntegrationTests.swift in Sources */,
+				1C830DEAC9402C0F171F4104 /* ContentView.swift in Sources */,
+				0A8ACB56893F1D49727C472C /* ZettelmanLocalApp.swift in Sources */,
+				A82A0C8C7B4EFFC835D4029E /* AppointmentRecord.swift in Sources */,
+				7D918E8C0A6273280FB73763 /* ExtractedAppointment.swift in Sources */,
+				D313EFB25D7993AED7FCE70B /* AppointmentExtractor.swift in Sources */,
+				221A3F3C8409C0A00082A2DC /* AppointmentPresentation.swift in Sources */,
+				A41A8FC4A7CE99942662B96F /* AppointmentScanner.swift in Sources */,
+				F23CAAB4FCE88485C845E50B /* OCRImagePreprocessor.swift in Sources */,
+				1BE02E115BB56B7568ED7884 /* ScannedImageStore.swift in Sources */,
+				288759A895F49D0F9220F081 /* TextRecognizer.swift in Sources */,
+				802D2FEAD84269A29AB82B14 /* AppointmentDetailView.swift in Sources */,
+				D6A228815C735CA1474C2625 /* AppointmentListView.swift in Sources */,
+				F76137DE686A1868D5A1B86C /* CameraPicker.swift in Sources */,
+				1B81938F598CBA5EA6E93592 /* PhotoLibraryPicker.swift in Sources */,
+				E7A7A992470A2A6070023DE8 /* ScanConfirmationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A62EA21FFBA1D3F9DEF7F718 /* PBXTargetDependency */ = {
+		727DAB49F3CFD03BCD563953 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZettelmanLocal;
-			target = 19FEC47EA1825C2806C4E108 /* ZettelmanLocal */;
-			targetProxy = 7CD6B521C0D6FE3A80F8E94D /* PBXContainerItemProxy */;
+			target = C6BCE3D7B4D99261579D1F2A /* ZettelmanLocal */;
+			targetProxy = 4A9E255AAB6DDAD060A99D93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		089F22CB8E6FBCB7C0201D04 /* Debug */ = {
+		3F6515AEC0AD3DD67171EACF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -357,7 +355,7 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5QUG2XD3BZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = ZettelmanLocal/Resources/Info.plist;
@@ -374,33 +372,7 @@
 			};
 			name = Debug;
 		};
-		13B21F69EC7026D697C90713 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = ZettelmanLocal/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.zettelmanlocal;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5ADD88E2DB6747B65FEEA77F /* Release */ = {
+		6D06D5ADB58A2F9F6FEF8059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZettelmanLocal.app/ZettelmanLocal";
@@ -422,7 +394,7 @@
 			};
 			name = Release;
 		};
-		9EE00BD731C7D7CAF1189DB7 /* Debug */ = {
+		BA3E605F8426C2641FE3E901 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -483,7 +455,33 @@
 			};
 			name = Debug;
 		};
-		BF231234A5A079813D289365 /* Release */ = {
+		C29DEC58EDA70BC56B2EABAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QUG2XD3BZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ZettelmanLocal/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zettelmanlocal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA2195A2BC608419E1D38D20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -531,13 +529,12 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		D63E1E4BAE000D9B05C9F6D6 /* Debug */ = {
+		EE2911D8F9D87F603CC112CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZettelmanLocal.app/ZettelmanLocal";
@@ -561,34 +558,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A3803AFA245E487671FE749 /* Build configuration list for PBXNativeTarget "ZettelmanLocalTests" */ = {
+		544CBCAA5D66A3A6AF54694A /* Build configuration list for PBXNativeTarget "ZettelmanLocal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ADD88E2DB6747B65FEEA77F /* Release */,
-				D63E1E4BAE000D9B05C9F6D6 /* Debug */,
+				C29DEC58EDA70BC56B2EABAD /* Release */,
+				3F6515AEC0AD3DD67171EACF /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0A65D528C3998449D9C0917 /* Build configuration list for PBXNativeTarget "ZettelmanLocal" */ = {
+		957673A45D9340D597C253E8 /* Build configuration list for PBXNativeTarget "ZettelmanLocalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13B21F69EC7026D697C90713 /* Release */,
-				089F22CB8E6FBCB7C0201D04 /* Debug */,
+				6D06D5ADB58A2F9F6FEF8059 /* Release */,
+				EE2911D8F9D87F603CC112CA /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7F8E8708F757080308595C2 /* Build configuration list for PBXProject "ZettelmanLocal" */ = {
+		A4F258116069654D63049F16 /* Build configuration list for PBXProject "ZettelmanLocal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EE00BD731C7D7CAF1189DB7 /* Debug */,
-				BF231234A5A079813D289365 /* Release */,
+				BA3E605F8426C2641FE3E901 /* Debug */,
+				CA2195A2BC608419E1D38D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDADF0559DA42259C37EF488 /* Project object */;
+	rootObject = 95FC311EA008961D54BD56A2 /* Project object */;
 }
